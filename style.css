@@ -1,0 +1,169 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #f8f9ff;
+    color: #333;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: linear-gradient(45deg, #6a5acd, #4f94ff);
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav .logo{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 5%;
+    gap: 40px;
+    background: #eef2ff;
+}
+
+.hero-text h1{
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.hero-text h1 span{
+    color: #6a5acd;
+}
+
+.hero-text p{
+    margin: 15px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+.hero-img{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Sections */
+.section{
+    padding: 70px 10%;
+    text-align: center;
+}
+
+/* About */
+.about p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Skills */
+
+.skills-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.skills-card p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+
+/* Projects */
+.project-container {
+    display: flex;              /* Hamesha HORIZONTAL banata hai */
+    flex-direction: row;        /* Row = horizontal line */
+    justify-content: center;    /* Center me arrange karega */
+    gap: 30px;                  /* Same gap between all 3 */
+    margin-top: 20px;
+}
+
+.project-box {
+    width: 250px;               /* Same size box */
+    text-align: center;
+}
+
+.project-box img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;          /* Same size image */
+    border-radius: 10px;
+}
+
+
+/* Buttons */
+.btn{
+    padding: 10px 20px;
+    background: #6a5acd;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #4f4fff;
+}
+
+/* Contact */
+.contact-form{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #6a5acd, #4f94ff);
+    color: white;
+    margin-top: 30px;
+}
